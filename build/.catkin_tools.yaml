@@ -1,0 +1,6 @@
+devel_space: /home/daniel/repos/infinite-turtles/devel
+install: false
+install_space: /home/daniel/repos/infinite-turtles/install
+profile: default
+source_space: /home/daniel/repos/infinite-turtles/src
+workspace: /home/daniel/repos/infinite-turtles

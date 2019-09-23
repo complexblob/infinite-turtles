@@ -1,0 +1,8 @@
+prefix=/home/daniel/repos/infinite-turtles/install
+
+Name: turtles
+Description: Description of turtles
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/daniel/repos/infinite-turtles/install/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/daniel/repos/infinite-turtles/devel/.private/catkin_tools_prebuild/setup.sh

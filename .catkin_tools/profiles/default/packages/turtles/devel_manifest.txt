@@ -1,0 +1,5 @@
+turtles
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/cmake.lock /home/daniel/repos/infinite-turtles/devel/./cmake.lock
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/lib/pkgconfig/turtles.pc /home/daniel/repos/infinite-turtles/devel/lib/pkgconfig/turtles.pc
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/share/turtles/cmake/turtlesConfig.cmake /home/daniel/repos/infinite-turtles/devel/share/turtles/cmake/turtlesConfig.cmake
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/share/turtles/cmake/turtlesConfig-version.cmake /home/daniel/repos/infinite-turtles/devel/share/turtles/cmake/turtlesConfig-version.cmake
