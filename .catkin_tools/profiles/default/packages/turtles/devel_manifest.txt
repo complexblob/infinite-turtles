@@ -1,5 +1,10 @@
 turtles
 /home/daniel/repos/infinite-turtles/devel/.private/turtles/cmake.lock /home/daniel/repos/infinite-turtles/devel/./cmake.lock
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/lib/turtles/subscriber /home/daniel/repos/infinite-turtles/devel/lib/turtles/subscriber
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/lib/python2.7/dist-packages/turtles/__init__.py /home/daniel/repos/infinite-turtles/devel/lib/python2.7/dist-packages/turtles/__init__.py
 /home/daniel/repos/infinite-turtles/devel/.private/turtles/lib/pkgconfig/turtles.pc /home/daniel/repos/infinite-turtles/devel/lib/pkgconfig/turtles.pc
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/share/turtles/cmake/turtles-msg-paths.cmake /home/daniel/repos/infinite-turtles/devel/share/turtles/cmake/turtles-msg-paths.cmake
 /home/daniel/repos/infinite-turtles/devel/.private/turtles/share/turtles/cmake/turtlesConfig.cmake /home/daniel/repos/infinite-turtles/devel/share/turtles/cmake/turtlesConfig.cmake
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/share/turtles/cmake/turtles-msg-extras.cmake /home/daniel/repos/infinite-turtles/devel/share/turtles/cmake/turtles-msg-extras.cmake
 /home/daniel/repos/infinite-turtles/devel/.private/turtles/share/turtles/cmake/turtlesConfig-version.cmake /home/daniel/repos/infinite-turtles/devel/share/turtles/cmake/turtlesConfig-version.cmake
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/share/roseus/ros/turtles/manifest.l /home/daniel/repos/infinite-turtles/devel/share/roseus/ros/turtles/manifest.l

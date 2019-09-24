@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/daniel/repos/infinite-turtles/devel/.private/turtles/lib/turtles/subscriber[0m
+[100%] Built target subscriber

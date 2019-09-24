@@ -5,4 +5,4 @@ Description: Description of turtles
 Version: 0.0.0
 Cflags: 
 Libs: -L/home/daniel/repos/infinite-turtles/devel/.private/turtles/lib 
-Requires: 
+Requires: message_runtime std_msgs

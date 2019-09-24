@@ -1,0 +1,1 @@
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/share/roseus/ros/turtles/manifest.l
