@@ -1,16 +1,13 @@
-[  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target _turtles_generate_messages_check_deps_Turtle
+[ 11%] Built target turtles_generate_messages_cpp
 [ 22%] Built target turtles_generate_messages_lisp
-[ 33%] Built target turtles_generate_messages_eus
-[ 55%] Built target turtles_generate_messages_py
-[ 66%] Built target turtles_generate_messages_cpp
+[ 44%] Built target turtles_generate_messages_py
 [ 77%] Built target turtles_generate_messages_nodejs
-[35m[1mScanning dependencies of target subscriber[0m
+[ 77%] Built target turtles_generate_messages_eus
 [ 77%] Built target turtles_generate_messages
-[ 88%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/daniel/repos/infinite-turtles/devel/.private/turtles/lib/turtles/subscriber[0m
 [100%] Built target subscriber
