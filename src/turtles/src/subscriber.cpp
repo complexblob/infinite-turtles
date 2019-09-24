@@ -1,8 +1,10 @@
 #include "ros/ros.h"
 #include "turtles/Turtle.h"
 
-void subscriberCallback(const turtles::Turtle::ConstPtr& msg) {
-    ROS_INFO("I heard: [%s]", msg->name.c_str());
+void subscriberCallback(const turtles::Turtle::ConstPtr& turtle) {
+    if (turtle->quality >= 7) {
+        ROS_INFO("Cool turtle:\n#%d \nquality: %d \nname:    %s", turtle->id, turtle->quality, turtle->name.c_str());
+    }
 }
 
 int main(int argc, char **argv) {
