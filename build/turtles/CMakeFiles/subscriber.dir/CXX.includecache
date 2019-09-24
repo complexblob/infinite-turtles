@@ -6,11 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/home/daniel/repos/infinite-turtles/devel/.private/turtles/include/turtles/Turtle.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/daniel/repos/infinite-turtles/src/turtles/src/subscriber.cpp
 ros/ros.h
 /home/daniel/repos/infinite-turtles/src/turtles/src/ros/ros.h
-std_msgs/String.h
-/home/daniel/repos/infinite-turtles/src/turtles/src/std_msgs/String.h
+turtles/Turtle.h
+/home/daniel/repos/infinite-turtles/src/turtles/src/turtles/Turtle.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h
@@ -657,22 +673,6 @@ ros/forwards.h
 /opt/ros/melodic/include/ros/ros/forwards.h
 
 /opt/ros/melodic/include/rosconsole/macros_generated.h
-
-/opt/ros/melodic/include/std_msgs/String.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
 
 /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 ros/macros.h

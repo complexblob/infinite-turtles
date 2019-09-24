@@ -12,7 +12,6 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   message_generation
-  std_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -49,10 +48,10 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   String.msg
-# )
+ add_message_files(
+   FILES
+   Turtle.msg
+ )
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -209,3 +208,4 @@ include_directories(
 
 add_executable(subscriber src/subscriber.cpp)
 target_link_libraries(subscriber ${catkin_LIBRARIES})
+add_dependencies(subscriber turtles_generate_messages_cpp)

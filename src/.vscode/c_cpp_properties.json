@@ -6,6 +6,7 @@
                 "limitSymbolsToIncludedHeaders": true
             },
             "includePath": [
+                "/home/daniel/repos/infinite-turtles/devel/include/**",
                 "/opt/ros/melodic/include/**",
                 "/home/daniel/repos/infinite-turtles/src/turtles/include/**",
                 "/usr/include/**"

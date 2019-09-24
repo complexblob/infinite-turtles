@@ -1,8 +1,8 @@
 #include "ros/ros.h"
-#include "std_msgs/String.h"
+#include "turtles/Turtle.h"
 
-void subscriberCallback(const std_msgs::String::ConstPtr& msg) {
-    ROS_INFO("I heard: [%s]", msg->data.c_str());
+void subscriberCallback(const turtles::Turtle::ConstPtr& msg) {
+    ROS_INFO("I heard: [%s]", msg->name.c_str());
 }
 
 int main(int argc, char **argv) {

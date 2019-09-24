@@ -3,6 +3,6 @@ prefix=/home/daniel/repos/infinite-turtles/install
 Name: turtles
 Description: Description of turtles
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/daniel/repos/infinite-turtles/install/include
 Libs: -L/home/daniel/repos/infinite-turtles/install/lib 
 Requires: message_runtime std_msgs
