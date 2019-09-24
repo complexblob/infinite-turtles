@@ -15,6 +15,7 @@ Published topic/s:
     turtle_topic
 """
 
+
 import rospy
 from turtles.msg import Turtle
 import random
