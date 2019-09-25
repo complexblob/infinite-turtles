@@ -29,9 +29,9 @@ void subscriberCallback(const turtles::Turtle::ConstPtr& turtle) {
 
 int main(int argc, char **argv) {
     // initialize our subscriber node
-    ros::init(argc, argv, "subscriber");
+    ros::init(argc, argv, "turtle_filter");
     ros::NodeHandle n;
-    ros::Subscriber sub = n.subscribe("turtle_topic", 1000, subscriberCallback);
+    ros::Subscriber sub = n.subscribe("turtles/turtle_topic", 1000, subscriberCallback);
     // run the node
     ros::spin();
     return 0;

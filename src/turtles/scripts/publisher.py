@@ -43,8 +43,8 @@ def randomName():
 def publisher():
     '''Send out 5 randomly generated turtles every second'''
     # declare a new publishing node and run it 5 times a second
-    pub = rospy.Publisher('turtle_topic', Turtle, queue_size = 10)
-    rospy.init_node('publisher', anonymous=True)
+    pub = rospy.Publisher('turtles/turtle_topic', Turtle, queue_size = 10)
+    rospy.init_node('turtle_generator', anonymous=True)
     rate = rospy.Rate(5)
     while not rospy.is_shutdown():
         # print and publish a randomly generated turtle
