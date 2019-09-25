@@ -20,7 +20,7 @@
 #include "turtles/Turtle.h"
 
 
-void subscriberCallback(const turtles::Turtle::ConstPtr& turtle) {
+void filterTurtleCallback(const turtles::Turtle::ConstPtr& turtle) {
     if (turtle->quality >= 7) { // only the finest turtles can pass
         // print some turtle info to the console
         ROS_INFO("Cool turtle:\n#%d \nquality: %d \nname:    %s", turtle->id, turtle->quality, turtle->name.c_str());
@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
     // initialize our subscriber node
     ros::init(argc, argv, "turtle_filter");
     ros::NodeHandle n;
-    ros::Subscriber sub = n.subscribe("turtles/turtle_topic", 1000, subscriberCallback);
+    ros::Subscriber turtle_filter_subscriber = n.subscribe("turtles/turtle_topic", 1000, subscriberCallback);
     // run the node
     ros::spin();
     return 0;

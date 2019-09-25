@@ -40,10 +40,10 @@ def randomName():
     adjective = random.choice(adjectives)
     return adjective.capitalize() + ' ' + name.capitalize()
 
-def publisher():
+def generateTurtles():
     '''Send out 5 randomly generated turtles every second'''
     # declare a new publishing node and run it 5 times a second
-    pub = rospy.Publisher('turtles/turtle_topic', Turtle, queue_size = 10)
+    turtle_generator_publisher = rospy.Publisher('turtles/turtle_topic', Turtle, queue_size = 10)
     rospy.init_node('turtle_generator', anonymous=True)
     rate = rospy.Rate(5)
     while not rospy.is_shutdown():
@@ -61,6 +61,6 @@ adjectives = open(path + '/data/adjectives.txt').read().splitlines() # one word 
 # run the node
 if __name__ == '__main__':
     try:
-        publisher()
+        generate_turtles()
     except rospy.ROSInterruptException:
         pass
