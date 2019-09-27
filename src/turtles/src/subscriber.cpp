@@ -11,7 +11,7 @@
  * Usage: Run a publisher node and this will print the best generated turtles automatically
  * 
  * Subscribed topic/s: 
- *     turtle_topic
+ *     /turtles/turtle_topic
  *
  *--..--**--..--**--..--**--..--**--..--**--..--**--..--**--..--**--..--
  */
@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
     // initialize our subscriber node
     ros::init(argc, argv, "turtle_filter");
     ros::NodeHandle n;
-    ros::Subscriber turtle_filter_subscriber = n.subscribe("turtles/turtle_topic", 1000, subscriberCallback);
+    ros::Subscriber turtle_filter_subscriber = n.subscribe("/turtles/turtle_topic", 1000, filterTurtleCallback);
     // run the node
     ros::spin();
     return 0;

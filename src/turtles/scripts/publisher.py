@@ -9,10 +9,10 @@ Date last updated: 24/09/2019 by Daniel Jacks
 
 Purpose: A ROS node to generate and send out random turtles.
 
-Usage: subscribe to turtle_topic and recieve 5 random Turtle messages every second
+Usage: subscribe to /turtles/turtle_topic and recieve 5 random Turtle messages every second
 
 Published topic/s:
-    turtle_topic
+    /turtles/turtle_topic
 """
 
 
@@ -43,14 +43,14 @@ def randomName():
 def generateTurtles():
     '''Send out 5 randomly generated turtles every second'''
     # declare a new publishing node and run it 5 times a second
-    turtle_generator_publisher = rospy.Publisher('turtles/turtle_topic', Turtle, queue_size = 10)
+    turtle_generator_publisher = rospy.Publisher('/turtles/turtle_topic', Turtle, queue_size = 10)
     rospy.init_node('turtle_generator', anonymous=True)
     rate = rospy.Rate(5)
     while not rospy.is_shutdown():
         # print and publish a randomly generated turtle
         turtle = Turtle(getNextID(), randomName(), randomQuality())
         rospy.loginfo('Sent turtle #%s with quality %s named %s' % (turtle.id, turtle.quality, turtle.name))
-        pub.publish(turtle)
+        turtle_generator_publisher.publish(turtle)
         rate.sleep()
 
 id_counter = 0
@@ -61,6 +61,6 @@ adjectives = open(path + '/data/adjectives.txt').read().splitlines() # one word 
 # run the node
 if __name__ == '__main__':
     try:
-        generate_turtles()
+        generateTurtles()
     except rospy.ROSInterruptException:
         pass
