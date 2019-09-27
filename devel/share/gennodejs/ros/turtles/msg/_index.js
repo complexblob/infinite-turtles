@@ -1,1 +1,0 @@
-/home/daniel/repos/infinite-turtles/devel/.private/turtles/share/gennodejs/ros/turtles/msg/_index.js
